@@ -3,10 +3,10 @@
 namespace Pm\trustpackage;
 
 use Illuminate\Support\ServiceProvider;
-use Pm\trustpackage\Console\Installtrustpackage;
+// use Pm\trustpackage\Console\Installtrustpackage;
 
 
-class trustpackageServiceProvider extends ServiceProvider
+class TrustpackageServiceProvider extends ServiceProvider
 {
   public function register()
   {
@@ -16,10 +16,10 @@ class trustpackageServiceProvider extends ServiceProvider
   public function boot()
   {
     // Register the command if we are using the application via the CLI
-    if ($this->app->runningInConsole()) {
-      $this->commands([
-        Installtrustpackage::class,
-      ]);
-    }
+    // if ($this->app->runningInConsole()) {
+    //   $this->commands([
+    //     Installtrustpackage::class,
+    //   ]);
+    // }
   }
 }

@@ -5,8 +5,8 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '396116a395ef600e3956a33c78095b4f792e9921',
-        'name' => 'pm/trustapppackage',
+        'reference' => '7f9b3d40e57f7c2f2d29fee8d97b57f323ab5c07',
+        'name' => 'pm/trustpackage',
         'dev' => true,
     ),
     'versions' => array(
@@ -592,13 +592,13 @@
             'reference' => '86406047271859ffc13424a048541f4531f53601',
             'dev_requirement' => true,
         ),
-        'pm/trustapppackage' => array(
+        'pm/trustpackage' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '396116a395ef600e3956a33c78095b4f792e9921',
+            'reference' => '7f9b3d40e57f7c2f2d29fee8d97b57f323ab5c07',
             'dev_requirement' => false,
         ),
         'psr/container' => array(
