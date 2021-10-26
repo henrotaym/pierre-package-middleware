@@ -1,12 +1,10 @@
 <?php
-// <!-- on chope un header via la request commencant par x - - auth et si on a la bonne valeur besoin ou pas de config.
-// 422 response -->
-// 
-namespace Pm\Trustpackage\Http\Middleware;
+
+namespace Pierre\Trustpackage\Http\Middleware;
 
 use Closure;
 
-class CheckSignature
+class RequestHeader
 {
     public function handle($request, Closure $next)
     {
@@ -20,4 +18,5 @@ class CheckSignature
         }
         return response('unauthenticated', 403);
     
+    }
 }

@@ -107,8 +107,8 @@ class ComposerStaticInitf56ea75240916f197b777825afd936cd
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Prophecy\\' => 9,
-            'Pm\\trustpackage\\' => 16,
-            'Pm\\Trustpackage\\Tests\\' => 22,
+            'Pierre\\Trustpackage\\Tests\\' => 26,
+            'Pierre\\Trustpackage\\' => 20,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
         ),
@@ -363,13 +363,13 @@ class ComposerStaticInitf56ea75240916f197b777825afd936cd
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
         ),
-        'Pm\\trustpackage\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
-        'Pm\\Trustpackage\\Tests\\' => 
+        'Pierre\\Trustpackage\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Pierre\\Trustpackage\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'PhpParser\\' => 
         array (
