@@ -1,5 +1,5 @@
 {
-    "name": "pierre/trustpackage",
+    "name": "pm/trustpackage",
     "description": "A package to verify key between project",
     "type": "library",
     "license": "MIT",
@@ -11,18 +11,18 @@
     ],
     "autoload": {
         "psr-4": {
-          "Pierre\\Trustpackage\\": "src"
+          "Pm\\trustpackage\\": "src"
         }
       },
       "autoload-dev": {
         "psr-4": {
-          "Pierre\\Trustpackage\\Tests\\": "tests"
+          "Pm\\Trustpackage\\Tests\\": "tests"
         }
       },
       "extra": {
         "laravel": {
             "providers": [
-                "Pierre\\Trustpackage\\TrustpackageServiceProvider"
+                "Pm\\trustpackage\\trustpackageServiceProvider"
             ]
         }
     },

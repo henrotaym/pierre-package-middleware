@@ -1,6 +1,6 @@
 <?php
 
-namespace Pierre\Trustpackage\Tests\Unit;
+namespace Pm\Trustpackage\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Testing\TestResponse;

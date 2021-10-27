@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  bootstrap=".\vendor\autoload.php"
+  bootstrap="vendor/autoload.php"
   backupGlobals="false"
   backupStaticAttributes="false"
   colors="true"
@@ -20,7 +20,7 @@
   </coverage>
   <testsuites>
     <testsuite name="Unit">
-      <directory suffix="Test.php">./tests/Unit</directory>
+      <directory suffix="Test.php">tests/Unit</directory>
     </testsuite>
     <testsuite name="Feature">
       <directory suffix="Test.php">./tests/Feature</directory>

@@ -1,8 +1,8 @@
 <?php
 
-namespace Pierre\Trustpackage\Tests;
+namespace Pm\Trustpackage\Tests;
 
-use Pierre\Trustpackage\TrustpackageServiceProvider;
+use Pm\Trustpackage\TrustpackageServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

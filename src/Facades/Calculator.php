@@ -1,6 +1,6 @@
 <?php
 
-namespace Pierre\Trustpackage\Facades;
+namespace Pm\trustpackage\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
