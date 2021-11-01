@@ -1,0 +1,33 @@
+{
+    "name": "pm/trustpackage",
+    "description": "A package to verify key between project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Pierre Wasilewski",
+        "email": "john@doe.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Pierre\\Trustpackage\\": "src"
+        }
+      },
+      "autoload-dev": {
+        "psr-4": {
+          "Pierre\\Trustpackage\\Tests\\": "tests"
+        }
+      },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "Pierre\\Trustpackage\\TrustpackageServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
