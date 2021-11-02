@@ -6,6 +6,7 @@ namespace Pierre\Trustpackage\Http\middleware;
 
 use Closure;
 
+
 class RequestHeader
 {
     public function handle($request, Closure $next)
