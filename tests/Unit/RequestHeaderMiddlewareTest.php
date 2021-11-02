@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Testing\TestResponse;
 use Pierre\Trustpackage\Tests\TestCase;
 use Pierre\Trustpackage\Http\Middleware\RequestHeader;
-use Pierre\Trustpackage\Exceptions\InvalidKeyException;
 
 class RequestHeaderMiddlewareTest extends TestCase
 {
@@ -85,14 +84,14 @@ class RequestHeaderMiddlewareTest extends TestCase
         $response->assertStatus(401);
     }
 
-        // /** @test */
-        // function exception_is_thrown_if_app_key_is_null()
-        // {   
-        //     // Log::shouldReceive('error')
-        //     // ->once();
-        //     $this->expectException(new InvalidKeyException());
-        //     // $this->expectExceptionMessage("Config key is missing.");
-        // }
+    // /** @test */
+    // function exception_is_thrown_if_app_key_is_null()
+    // {   
+    //     // Log::shouldReceive('error')
+    //     // ->once();
+    //     $this->expectException(new InvalidKeyException());
+    //     // $this->expectExceptionMessage("Config key is missing.");
+    // }
 
 
 }

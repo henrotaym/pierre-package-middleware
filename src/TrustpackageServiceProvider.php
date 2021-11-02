@@ -5,8 +5,6 @@ namespace Pierre\Trustpackage;
 use Illuminate\Support\ServiceProvider;
 use Pierre\Trustpackage\Exceptions\InvalidKeyException;
 
-// use Pm\trustpackage\Console\Installtrustpackage;
-
 
 class TrustpackageServiceProvider extends ServiceProvider
 {
