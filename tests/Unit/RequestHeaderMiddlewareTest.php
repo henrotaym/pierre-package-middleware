@@ -83,4 +83,15 @@ class RequestHeaderMiddlewareTest extends TestCase
         $response = new TestResponse($middleware->handle($request, $next));
         $response->assertStatus(401);
     }
+
+    // /** @test */
+    // function exception_is_thrown_if_app_key_is_null()
+    // {   
+    //     // Log::shouldReceive('error')
+    //     // ->once();
+    //     $this->expectException(new InvalidKeyException());
+    //     // $this->expectExceptionMessage("Config key is missing.");
+    // }
+
+
 }
