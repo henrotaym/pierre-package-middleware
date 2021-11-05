@@ -1,6 +1,6 @@
 <?php
 
-namespace Pierre\Trustpackage\Http\middleware;
+namespace Wasilp\Trustpackage\Http\middleware;
 
 use Closure;
 

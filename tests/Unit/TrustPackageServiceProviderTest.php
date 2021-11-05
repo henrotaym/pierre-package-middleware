@@ -1,11 +1,11 @@
 <?php
 
-namespace Pierre\Trustpackage\Tests\Unit;
+namespace Wasilp\Trustpackage\Tests\Unit;
 
 use Illuminate\Support\Facades\Log;
 use Orchestra\Testbench\TestCase;
-use Pierre\Trustpackage\Exceptions\InvalidKeyException;
-use Pierre\Trustpackage\TrustpackageServiceProvider;
+use Wasilp\Trustpackage\Exceptions\InvalidKeyException;
+use Wasilp\Trustpackage\TrustpackageServiceProvider;
 
 
 

@@ -11,18 +11,18 @@
     ],
     "autoload": {
         "psr-4": {
-          "Pierre\\Trustpackage\\": "src"
+          "Wasilp\\Trustpackage\\": "src"
         }
       },
       "autoload-dev": {
         "psr-4": {
-          "Pierre\\Trustpackage\\Tests\\": "tests"
+          "Wasilp\\Trustpackage\\Tests\\": "tests"
         }
       },
       "extra": {
         "laravel": {
             "providers": [
-                "Pierre\\Trustpackage\\TrustpackageServiceProvider"
+                "Wasilp\\Trustpackage\\TrustpackageServiceProvider"
             ]
         }
     },

@@ -1,11 +1,11 @@
 <?php
 
-namespace Pierre\Trustpackage\Tests\Unit;
+namespace Wasilp\Trustpackage\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Testing\TestResponse;
-use Pierre\Trustpackage\Tests\TestCase;
-use Pierre\Trustpackage\Http\Middleware\RequestHeader;
+use Wasilp\Trustpackage\Tests\TestCase;
+use Wasilp\Trustpackage\Http\Middleware\RequestHeader;
 
 class RequestHeaderMiddlewareTest extends TestCase
 {
