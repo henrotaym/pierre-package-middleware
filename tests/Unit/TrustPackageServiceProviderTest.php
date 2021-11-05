@@ -4,6 +4,7 @@ namespace Pierre\Trustpackage\Tests\Unit;
 
 use Illuminate\Support\Facades\Log;
 use Orchestra\Testbench\TestCase;
+use Pierre\Trustpackage\Exceptions\InvalidKeyException;
 use Pierre\Trustpackage\TrustpackageServiceProvider;
 
 
@@ -16,7 +17,10 @@ class TrustPackageServiceProviderTest  extends TestCase
     {
         $provider = new TrustpackageServiceProvider($this->app);
         Log::shouldReceive('error')
-            ->once();
+            ->once()
+            ->withArgs(function($message){
+               return (new InvalidKeyException())->getMessage() === $message;
+            });
         $provider->boot();
     }
 }

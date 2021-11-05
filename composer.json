@@ -1,12 +1,12 @@
 {
-    "name": "pm/trustpackage",
+    "name": "wasilp/trustpackage",
     "description": "A package to verify key between project",
     "type": "library",
     "license": "MIT",
     "authors": [
       {
         "name": "Pierre Wasilewski",
-        "email": "john@doe.com"
+        "email": "pierre.wasilewski.webdev@gmail.com"
       }
     ],
     "autoload": {
