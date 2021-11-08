@@ -1,13 +1,10 @@
 <?php
-
 namespace Wasilp\Trustpackage\Tests\Unit;
 
 use Illuminate\Support\Facades\Log;
 use Orchestra\Testbench\TestCase;
 use Wasilp\Trustpackage\Exceptions\InvalidKeyException;
 use Wasilp\Trustpackage\TrustpackageServiceProvider;
-
-
 
 class TrustPackageServiceProviderTest  extends TestCase
 {

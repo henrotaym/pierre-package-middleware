@@ -1,5 +1,4 @@
 <?php
-
 namespace Wasilp\Trustpackage\Http\middleware;
 
 use Closure;

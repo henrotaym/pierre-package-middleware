@@ -1,7 +1,5 @@
 <?php
-
 namespace Wasilp\Trustpackage\Exceptions;
-
 
 use Exception;
 

@@ -1,5 +1,4 @@
 <?php
-
 namespace Wasilp\Trustpackage;
 
 use Illuminate\Support\ServiceProvider;
