@@ -1,9 +1,8 @@
 <?php
-
-namespace Pierre\Trustpackage;
+namespace Wasilp\Trustpackage;
 
 use Illuminate\Support\ServiceProvider;
-use Pierre\Trustpackage\Exceptions\InvalidKeyException;
+use Wasilp\Trustpackage\Exceptions\InvalidKeyException;
 
 
 class TrustpackageServiceProvider extends ServiceProvider
